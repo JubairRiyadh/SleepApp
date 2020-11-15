@@ -52,6 +52,9 @@ public class PlayerActivity extends AppCompatActivity {
 
         //player_duration.setText(conertFormat(mediaPlayer.getCurrentPosition()));
         full_duration.setText(conertFormat(mediaPlayer.getDuration()));
+        String asubstring = details.substring(3);
+
+        musiccategory.setText(conertFormat(mediaPlayer.getDuration()) +" "+asubstring);
         runnable=new Runnable() {
             @Override
             public void run() {

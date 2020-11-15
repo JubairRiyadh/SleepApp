@@ -27,7 +27,7 @@ and vesualization to create perfect conditions for refreshing sleep."
         android:layout_below="@+id/wel"
         android:textSize="17sp"
         android:layout_margin="10dp"/>
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
@@ -36,6 +36,7 @@ and vesualization to create perfect conditions for refreshing sleep."
         android:id="@+id/buttongets"
         android:onClick="otheractivity"
         android:layout_margin="15dp"
+        android:textSize="18sp"
         android:textColor="@color/white"
-        android:layout_gravity="center"/>
+        android:gravity="center"/>
 </RelativeLayout>
